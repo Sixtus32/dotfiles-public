@@ -8,7 +8,7 @@ Both images and documents of certain importance are also included.
 
 **Warning:** For personal use 😶‍🌫️.
 
-## vim setup (>=8.2.0)
+## Vim setup (>=8.2.0) 👨🏾‍💻
 ---
 Requieres [vim](https://www.vim.org/)
 - To set my system theme ➡️ [morhetz/gruvbox](https://github.com/morhetz/gruvbox).
@@ -16,6 +16,18 @@ Requieres [vim](https://www.vim.org/)
 - A file system explorer for the Vim editor ➡️ [scrooloose/nerdtree](https://github.com/preservim/nerdtree).
 - Navigate seamlessly between vim and tmux ➡️ [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator).
 - Custom pop menu with snippet sopport ➡️ [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim).
+
+### the main aliases in my .bashrc file ヾ(＠⌒ー⌒＠)ノ
+~~~ .bashrc
+alias c='clear'
+alias x='rm-rf'
+alias vi='vim'
+alias v='vim .
+alias z='cd'
+alias g='git'
+alias gin='git init && commitizen init cz-conventional-changelog --save-dev --save-exact'
+~~~
+
 
 ## About me 
 ---
