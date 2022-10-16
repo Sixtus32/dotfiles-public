@@ -17,17 +17,21 @@ Requieres [vim](https://www.vim.org/)
 - Navigate seamlessly between vim and tmux ➡️ [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator).
 - Custom pop menu with snippet sopport ➡️ [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim).
 
-### the main aliases in my .bashrc file ヾ(＠⌒ー⌒＠)ノ
+## The main aliases in my .bashrc file ヾ(＠⌒ー⌒＠)ノ
+---
 ~~~ .bashrc
 alias c='clear'
 alias x='rm-rf'
 alias vi='vim'
 alias v='vim .
 alias z='cd'
+alias zz='cd & clear'
 alias g='git'
 alias gin='git init && commitizen init cz-conventional-changelog --save-dev --save-exact'
 ~~~
 
+## git 
+- Use commitizen for commiting → [commitizen/cz-cli](https://github.com/commitizen/cz-cli)
 
 ## About me 
 ---
