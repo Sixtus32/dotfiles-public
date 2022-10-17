@@ -32,10 +32,40 @@ $ scp -r mydir username@remotehost.com:/remote/directory
 $ scp -r animals sixtus@192.168.245.141:/home/marcos/
 ~~~
 
+### rsync (remote synchronization o sincronización remota)
+**Rsync** es muy similar a scp, pero tiene una gran diferencia. Rsync usa un algoritmo especial que verifica de antemano si ya existen ciertos datos que se esta por copiar NO copiarlos y llevarlos al ** host local o remoto** perdiendo el tiempo sin centrase en aquellos que no se tienen constancia de.
+
+También verifica la integridad de un archivo que se esta copiando con sumas de verificación. Estas pequeñas optimizaciones permiten una mayor flexibilidad de transferencia de archivos y hacen que **rsync** sea ideal para la sincronización de directorios de forma remota y local, copias de seguridad de datos, grandes transferencias de datos y más.
+
+Algunos opciones del comando rsync más comunes: 
+- v	→	para las salida detallada 
+- r	→	recursivo en directorios
+- h	→	salida legible por humanos 
+- z	→	comprimido para facilitar la transferencia, ideal para conexiones lentas.
+
+**Forma de uso**:
+- Copia sincronizado de archivos en un mismo host.
+~~~bash
+$ rsync -zvr /my/local/directory/one /my/local/directory/two
+~~~
+
+- Copia sincronizado de archivos locales a *host remotos*.
+~~~bash
+$ rsync /local/directory username@remotehost.com:/remote/direct
+ory
+~~~
+
+- Copia sincronizado de archivos de *host remoto* a *host local*.
+~~~bash
+$ rsync username@remotehost.com:/remote/directory /local/directory
+~~~
+
 
 
 
 ## Resumen.
 
 - Use ***scp*** para realizar copias de archivos y directorios de local a remoto e vicersa.
+- Use ***rsync*** para realizar copias de archivos y directorios de local a remoto e vicersa para mayor rendiento y para los *backups*.
+
 
