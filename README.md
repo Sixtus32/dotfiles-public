@@ -33,6 +33,11 @@ alias gin='git init && commitizen init cz-conventional-changelog --save-dev --sa
 ## git 
 - Use commitizen for commiting → [commitizen/cz-cli](https://github.com/commitizen/cz-cli)
 
+## What am I learning ✍🏾🕵🏾‍♂️
+These are some subjects that I usually review to improve my productitivity and notion in programming.
+
+- Better domain in the terminal without becoming an expert with [Linux Journey](https://linuxjourney.com/). Check my summaries of this website [here](./learn)
+
 ## About me 
 ---
 - [Twitter @skullwaves @sixtuswork18](http://twitter.com/sixtuswork18)
