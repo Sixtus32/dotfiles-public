@@ -36,7 +36,8 @@ alias gin='git init && commitizen init cz-conventional-changelog --save-dev --sa
 ## What am I learning ✍🏾🕵🏾‍♂️
 These are some subjects that I usually review to improve my productitivity and notion in programming.
 
-- Better domain in the terminal without becoming an expert with [Linux Journey](https://linuxjourney.com/). Check my summaries of this website [here](./learn)
+- Better domain in the terminal without becoming an expert with [Linux Journey](https://linuxjourney.com/). Check my summaries of this website [here](./src/learn/linux-journey/linux-journey-introduction.md).
+
 
 ## About me 
 ---
