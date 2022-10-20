@@ -30,12 +30,22 @@ Estos son algunos comandos y sus funciones :
 |**exit** o **logout** | Permite *abondonar* al terminal |
  
 
-
-
-
+## Manipulación de texto y navegavión.
 ---
 
-## Manipulación de texto y navegavión.
+**Flujos de E/S (entrada/salida).**
+
+Entender los flujos de entradas y salidas, nos permite entender las ***redirecciones*** con comandos.
+
+
+| ***Operadores de Redirecciones*** |
+|---------------|
+| **Operadores** | **Funciones** | **Empleo del Comando** |
+| 	>      | redirecciona a donde quere que se diriga la salida, y la sobreescribe | echo Hello World > texto.txt |
+|	>>	| redirecciona pero sin sobreescribir | echo Nos Veremos >> texto.txt |
+
+
+
 ## Editor de texto plano (vim)
 ## Gestión de usuarios.
 ## Permisos
