@@ -60,7 +60,45 @@ ory
 $ rsync username@remotehost.com:/remote/directory /local/directory
 ~~~
 
+### Servidor HTTP sencillo.
+Nodejs dispone de una herramienta para servir archivos a través de HTTP. La cual crea un recurso compartido de red rápido al que puedan acceder otras máquinas en su red. Cree una archivo por ejemplo **hello.js** con el siguiente contenido: 
 
+~~~js 
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+~~~
+Al ejecutarlo :
+~~~bash
+$ node hello.js
+~~~
+
+Esto configura un servidor web básico al que puede acceder a través de la dirección localhost. 
+Esto se puede realizar desde python3 y node como sale en el ejemplo de distinta forma.
+
+### NFS (Network File System)
+
+Uno de los recursos para compartir archivos de red más estándar para Linux es NFT. Este permite a un servidor compartir directorios y archivos con uno o más clientes a través de la red.
+**Su configuración se realiza así:**
+~~~bash
+$ sudo service nfsclient start
+$ sudo mount server:/directory /mount_directory
+~~~
+La herramienta **automount** que en su reciente versión se le conoce como **amd** cuando un archivo es accedido desde un directorio especifico, **automount** buscara a servidor remoto el servidor remoto y lo montará automáticamente.
+
+### Samba 
+Samba es lo que llamamos las utilidades de Linux para trabajar con CIFS en Linux. Además de compatir archivos, también puede compartir recursos como impresoras.
 
 
 ## Resumen.
