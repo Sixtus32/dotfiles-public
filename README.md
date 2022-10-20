@@ -1,4 +1,4 @@
-![retro image](./images/retro-sci-fi-image/315285.jpg)
+![retro image](./src/images/retro-sci-fi-image/315285.jpg)
 
 ##### A 😲 Wallpaper.
 # skullwaves
