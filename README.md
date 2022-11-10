@@ -28,6 +28,7 @@ alias z='cd'
 alias zz='cd & clear'
 alias g='git'
 alias gin='git init && commitizen init cz-conventional-changelog --save-dev --save-exact'
+daw.
 ~~~
 
 ## git 
