@@ -41,6 +41,8 @@ These are some subjects that I usually review to improve my productitivity and n
 
 - The bash shell language → [Bash Scripting Course](https://www.youtube.com/watch?v=e7BufAVwDiM&t=1128s). 
 
+- Design Patterns → [Java Design Patterns ](http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/index.htm).
+
 ## DAW.
 - github repository. → [click here](/DAW)
 ## My forms of organization and application
