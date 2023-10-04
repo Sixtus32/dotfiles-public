@@ -43,6 +43,7 @@ These are some subjects that I usually review to improve my productitivity and n
 
 - Design Patterns → [Java Design Patterns ](http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/index.htm).
 
+
 ## DAW.
 - github repository. → [click here](/DAW)
 ## My forms of organization and application
