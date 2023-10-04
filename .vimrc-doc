@@ -46,6 +46,11 @@ nmap<Leader>q :q<CR>
 nmap<Leader>wq :wq<CR>
 nmap<Leader>! :q!<CR>
 
+"emmet-vim
+let g:user_emmet_mode='inv'
+let g:user_emmet_leader_key='<C-Y>'
+
+
 
 " Autocompletado.	paréntesis, llaves, corchetes, etc...
 inoremap ( ()<Esc>i
