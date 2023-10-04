@@ -26,10 +26,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mattn/emmet-vim'
-
- 
-
+Plug 'Valloric/YouCompleteMe' 
 call plug#end()	
+
 " CIERRE DE LLAMADO DE PLUGINS
 " para instalarlos :PluginInstall
 
